@@ -1,18 +1,7 @@
-#customers {
-  background-color: #f8f9fa;
+#wishlist {
   padding: 80px 0;
-  .customers {
-    h1 {
-      color: #364d59;
-      text-align: center;
-    }
-    .form{
-      padding: 30px 0;
-      input{
-        width: 500px;
-        margin-right: 10px;
-      }
-    }
+  background-color: #fafafa;
+  .wishlist {
     .cards {
       display: flex;
       width: 100%;
@@ -34,30 +23,19 @@
               border-radius: 50%;
             }
           }
-          .info{
-            .name{
+          .info {
+            .name {
               color: #00070a;
               font-weight: 600;
-              &:hover{
+              &:hover {
                 color: #06547e;
               }
             }
-            .department{
-                color: #d3d3d4;
-                font-weight: 500;
+            .department {
+              color: #d3d3d4;
+              font-weight: 500;
             }
           }
-          .icon{
-            .fa-solid{
-              color: rgb(219, 4, 4);
-              cursor: pointer;
-            }
-          }
-       .icon{
-        .fa-regular{
-          cursor: pointer;
-        }
-       }
         }
         .description {
           color: #364d59;
@@ -65,6 +43,26 @@
           line-height: 30px;
           margin-top: 20px;
           font-weight: 500;
+        }
+        .btn {
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;
+          button {
+            border: 0;
+            outline: 0;
+            padding: 10px 20px;
+            font-size: 15px;
+            font-weight: 500;
+            transition: all .4s;
+            cursor: pointer;
+            color: #031c38;
+            background-color: #fddfab;
+            border-radius: 5px;
+            &:hover {
+              background-color: #fdbe50;
+            }
+          }
         }
       }
     }

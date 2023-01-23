@@ -61,7 +61,7 @@ const Header = () => {
                 </Dropdown>
               </li>
               <li>
-                <Link to={"/testimonials"}>Testimonials</Link>
+                <Link to={"/wishlist"}>Wishlist</Link>
               </li>
               <li>
                 <Link to={"/about"}>About</Link>
