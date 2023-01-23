@@ -1,0 +1,58 @@
+#add-page {
+  padding: 80px 0;
+  background-color: rgb(240, 241, 241);
+  .add-page {
+    h1 {
+      text-align: center;
+      color: rgb(11, 11, 112);
+    }
+    .form {
+      display: flex;
+      justify-content: center;
+      form {
+        .input {
+          margin: 20px 0;
+          input {
+            width: 800px;
+            padding: 10px 20px;
+            border: 1px solid rgb(178, 179, 180);
+            outline: 0;
+            border-radius: 5px;
+            &:focus {
+              border: 1px solid rgb(4, 101, 247);
+            }
+          }
+          textarea {
+            width: 800px;
+            height: 70px;
+            padding: 10px 20px;
+            border: 1px solid rgb(178, 179, 180);
+            outline: 0;
+            border-radius: 5px;
+            &:focus {
+              border: 1px solid rgb(4, 101, 247);
+            }
+          }
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            button{
+                border: 0;
+                outline: 0;
+                padding: 14px 39px;
+                font-size: 17px;
+                font-weight: 600;
+                cursor: pointer;
+                color: #031c38;
+                background-color: #fddfab;
+                border-radius: 5px;
+                &:hover {
+                  background-color: #fdbe50;
+                }
+            }
+        }
+      }
+    }
+  }
+}

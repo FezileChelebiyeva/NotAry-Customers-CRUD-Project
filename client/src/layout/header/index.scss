@@ -1,0 +1,21 @@
+#header {
+    background-color: #FEE2B3;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+    nav{
+        ul{
+            display: flex;
+            column-gap: 30px;
+            li{
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+  }
+}

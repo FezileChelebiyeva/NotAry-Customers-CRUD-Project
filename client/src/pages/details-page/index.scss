@@ -1,0 +1,47 @@
+#details {
+  padding: 80px 0;
+  .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .img {
+      img {
+        width: 300px;
+        border-radius: 10px;
+      }
+    }
+    .about {
+      padding: 0 90px;
+      h1 {
+        margin-bottom: 20px;
+        color: rgb(8, 28, 94);
+      }
+      .department {
+        color: rgb(8, 28, 94);
+        font-weight: 500;
+        font-size: 18px;
+      }
+      .description {
+        padding: 20px 0;
+        font-weight: 500;
+        color: rgb(92, 92, 92);
+      }
+      .btn {
+        button {
+          border: 0;
+          outline: 0;
+          padding: 14px 25px;
+          font-size: 17px;
+          font-weight: 600;
+          cursor: pointer;
+          color: #031c38;
+          background-color: #fddfab;
+          border-radius: 5px;
+          &:hover {
+            background-color: #fdbe50;
+          }
+        }
+      }
+    }
+  }
+}
